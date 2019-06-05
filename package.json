@@ -1,0 +1,40 @@
+{
+  "name": "civil-web",
+  "version": "1.0.0",
+  "description": "Sometimes you have to fight your own wars on the web! Anyway, this is a small library for http web error and statuses.",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "mocha ./test/unit/*tests.js --reporter mocha-badge-generator"
+  },
+  "keywords": [
+    "babel7",
+    "chai",
+    "civil",
+    "civil-web",
+    "civilized",
+    "civilized-web",
+    "es2018",
+    "http",
+    "http-status-codes",
+    "httpStatusCodes",
+    "mocha",
+    "status-codes",
+    "statusCodes",
+    "wallaby",
+    "web",
+    "web-errors",
+    "web-exceptions"
+  ],
+  "author": "Kelly Vernon",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "eslint": "5.15.3",
+    "mocha": "^6.1.4",
+    "mocha-badge-generator": "^0.2.2",
+    "uuid": "^3.3.2"
+  }
+}
