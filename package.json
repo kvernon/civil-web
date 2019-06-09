@@ -1,7 +1,7 @@
 {
-  "name": "civil-web",
-  "version": "1.0.0",
-  "description": "Sometimes you have to fight your own wars on the web! Anyway, this is a small library for http web error and statuses.",
+  "name": "@cubedelement.com/civil-web",
+  "version": "1.0.2",
+  "description": "Sometimes you have to fight your own wars on the web! Anyway, bad movie reference.... This is a small library for http web error and statuses.",
   "main": "build/index.js",
   "scripts": {
     "test": "mocha ./test/unit/*tests.js --reporter mocha-badge-generator"
@@ -30,11 +30,21 @@
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/preset-env": "^7.4.5",
-    "babel-register": "^6.26.0",
+    "@babel/register": "^7.4.4",
     "chai": "^4.2.0",
+    "del": "^4.1.1",
     "eslint": "5.15.3",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-eslint": "^5.0.0",
+    "gulp-mocha": "^6.0.0",
     "mocha": "^6.1.4",
     "mocha-badge-generator": "^0.2.2",
+    "run-sequence": "^2.2.1",
     "uuid": "^3.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kvernon/civil-web.git"
   }
 }

@@ -1,3 +1,6 @@
 test
 src
 .npmrc
+.idea
+gulpfile.babel.js
+wallaby.js
