@@ -1,4 +1,4 @@
-module.exports = {
+export const StatusCodes = {
   continue: 100,
   switchingProtocol: 101,
   webDavProcessing: 102,
@@ -58,4 +58,3 @@ module.exports = {
   notExtended: 510,
   networkAuthenticationRequired: 511,
 };
-

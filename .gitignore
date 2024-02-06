@@ -2,3 +2,5 @@ build
 .npmrc
 node_modules
 .idea
+.jestcache
+coverage

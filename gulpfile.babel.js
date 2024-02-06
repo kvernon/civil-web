@@ -1,4 +1,4 @@
-"use strict";
+'use strict';
 
 const gulp = require('gulp');
 const mocha = require('gulp-mocha');
@@ -22,7 +22,7 @@ const buildEslint = () => {
 const buildBabel = () => {
   return gulp.src(['src/**/*.js'], {base: './src', sourcemaps: true})
     .pipe(babel())
-    .pipe(gulp.dest("build"));
+    .pipe(gulp.dest('build'));
 };
 
 const build = gulp.series(buildClean, buildEslint, buildBabel, testUnit);

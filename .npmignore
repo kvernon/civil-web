@@ -1,6 +1,15 @@
-test
+__tests__
 src
 .npmrc
 .idea
 gulpfile.babel.js
 wallaby.js
+.nvmrc
+jest*
+tsconfig*.json
+.jestcache
+.editorconfig
+.eslintrc.json
+.prettierc
+coverage
+.eslintignore
