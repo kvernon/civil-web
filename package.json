@@ -1,6 +1,6 @@
 {
   "name": "@cubedelement.com/civil-web",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "description": "Sometimes you have to fight your own wars on the web! Anyway, bad movie reference.... This is a small library for http web error and statuses.",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
